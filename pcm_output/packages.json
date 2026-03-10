@@ -28,8 +28,8 @@
                     "version": "1.1.0",
                     "status": "stable",
                     "kicad_version": "8.0",
-                    "download_sha256": "d119fe50ab254fcfe6dac3998459ca50b1f043d7558ca2feff0008a7e2693127",
-                    "download_size": 49290,
+                    "download_sha256": "e84e3a61103dcd678d8e00de440a93691b7435210dfd40acbfd441cce3b32e74",
+                    "download_size": 49440,
                     "download_url": "https://github.com/bruinformula/bfr_library_manager_plugin/releases/download/v1.1.0/BFR-KiCad-Library-Manager-1.1.0.zip",
                     "install_size": 154122
                 }

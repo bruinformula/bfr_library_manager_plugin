@@ -33,7 +33,7 @@ mkdir -p "${OUTPUT_DIR}"
 
 # ── 1. Build the plugin ZIP ──────────────────────────────────
 # PCM expects: plugins/<package_name>/  inside the ZIP
-PLUGIN_DIR="${TEMP_DIR}/plugins/com_github_bfracing_bfr-kicad-library-manager"
+PLUGIN_DIR="${TEMP_DIR}/plugins/com_github_bruinformula_bfr-library-manager-plugin"
 mkdir -p "${PLUGIN_DIR}"
 
 # Copy all plugin files
@@ -78,8 +78,8 @@ echo "   Install size: ~${INSTALL_SIZE}"
 
 # ── 3. Build resources.zip (icon) ────────────────────────────
 RESOURCES_DIR="${TEMP_DIR}/resources"
-mkdir -p "${RESOURCES_DIR}/com.github.bfracing.bfr-kicad-library-manager"
-cp "${SCRIPT_DIR}/plugins/icon.png" "${RESOURCES_DIR}/com.github.bfracing.bfr-kicad-library-manager/icon.png"
+mkdir -p "${RESOURCES_DIR}/com.github.bruinformula.bfr-library-manager-plugin"
+cp "${SCRIPT_DIR}/plugins/icon.png" "${RESOURCES_DIR}/com.github.bruinformula.bfr-library-manager-plugin/icon.png"
 
 RESOURCES_ZIP="${OUTPUT_DIR}/resources.zip"
 cd "${RESOURCES_DIR}"

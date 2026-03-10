@@ -8,15 +8,15 @@
     },
     "name": "BFR KiCad Repository",
     "packages": {
-        "sha256": "495e7a5d9f1b4c80b1c5434d75c977dec869a5b4e6b2db5c281ac64cbb1b5dfc",
-        "update_time_utc": "2026-03-10 04:09:32",
-        "update_timestamp": 1773115772,
+        "sha256": "56d433578a566cd6c719f73489c9030f4a823c05c0388651620d715f209af946",
+        "update_time_utc": "2026-03-10 04:47:46",
+        "update_timestamp": 1773118066,
         "url": "https://raw.githubusercontent.com/bruinformula/bfr_library_manager_plugin/main/repository/packages.json"
     },
     "resources": {
-        "sha256": "8dc46facc6929d8204baef97e420700f6d3ebabba2b684524a0d2f108925e184",
-        "update_time_utc": "2026-03-10 04:09:32",
-        "update_timestamp": 1773115772,
+        "sha256": "0e21d3d805d18804f6b1acf79db0d0aa8b5f3c3d37a4bca220f2bf9294b61cdc",
+        "update_time_utc": "2026-03-10 04:47:46",
+        "update_timestamp": 1773118066,
         "url": "https://github.com/bruinformula/bfr_library_manager_plugin/raw/main/repository/resources.zip"
     }
 }
