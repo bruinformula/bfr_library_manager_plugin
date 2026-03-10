@@ -29,7 +29,7 @@ All-in-one KiCad plugin for library management and JLCPCB manufacturing integrat
 2. Click **Manage Repositories** (bottom-left)
 3. Click **+** to add a new repository:
    - **Name**: `BFR KiCad Repository`
-   - **URL**: `https://github.com/bruinformula/bfr_library_manager_plugin.git`
+   - **URL**: `https://raw.githubusercontent.com/bruinformula/bfr_library_manager_plugin/main/repository/repository.json`
 4. Click **Save**
 5. Find **"BFR KiCad Library Manager"** in the plugin list
 6. Click **Install** → **Apply Pending Changes**
