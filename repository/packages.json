@@ -5,7 +5,7 @@
             "name": "BFR KiCad Library Manager",
             "description": "All-in-one library manager, JLCPCB manufacturing suite, and LCSC part assigner",
             "description_full": "BFR KiCad Library Manager is a comprehensive KiCad plugin that combines library management with JLCPCB manufacturing integration. Features include ZIP import, auto-classification, LCSC metadata enrichment, JLCPCB production file generation, Interactive HTML BOM, and more.",
-            "identifier": "com.github.bfracing.bfr-kicad-library-manager",
+            "identifier": "com.github.bruinformula.bfr-library-manager-plugin",
             "type": "plugin",
             "author": {
                 "name": "BF Racing",
@@ -28,7 +28,7 @@
                     "version": "1.1.0",
                     "status": "stable",
                     "kicad_version": "8.0",
-                    "download_sha256": "e84e3a61103dcd678d8e00de440a93691b7435210dfd40acbfd441cce3b32e74",
+                    "download_sha256": "071f676fdbbf98bfe8816f096d96ed586189b2696a5e555097c732f5bf29bb26",
                     "download_size": 49440,
                     "download_url": "https://github.com/bruinformula/bfr_library_manager_plugin/releases/download/v1.1.0/BFR-KiCad-Library-Manager-1.1.0.zip",
                     "install_size": 154122

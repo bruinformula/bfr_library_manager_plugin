@@ -103,7 +103,7 @@ cat > "${OUTPUT_DIR}/packages.json" << PACKAGES_EOF
             "name": "BFR KiCad Library Manager",
             "description": "All-in-one library manager, JLCPCB manufacturing suite, and LCSC part assigner",
             "description_full": "BFR KiCad Library Manager is a comprehensive KiCad plugin that combines library management with JLCPCB manufacturing integration. Features include ZIP import, auto-classification, LCSC metadata enrichment, JLCPCB production file generation, Interactive HTML BOM, and more.",
-            "identifier": "com.github.bfracing.bfr-kicad-library-manager",
+            "identifier": "com.github.bruinformula.bfr-library-manager-plugin",
             "type": "plugin",
             "author": {
                 "name": "BF Racing",
