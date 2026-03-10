@@ -37,23 +37,23 @@ PLUGIN_DIR="${TEMP_DIR}/plugins/com_github_bfracing_bfr-kicad-library-manager"
 mkdir -p "${PLUGIN_DIR}"
 
 # Copy all plugin files
-cp "${SCRIPT_DIR}/__init__.py"              "${PLUGIN_DIR}/"
-cp "${SCRIPT_DIR}/__main__.py"              "${PLUGIN_DIR}/"
-cp "${SCRIPT_DIR}/bfr_gui.py"               "${PLUGIN_DIR}/"
-cp "${SCRIPT_DIR}/bfr_backend.py"           "${PLUGIN_DIR}/"
-cp "${SCRIPT_DIR}/bfr_classifier.py"        "${PLUGIN_DIR}/"
-cp "${SCRIPT_DIR}/bfr_metadata.py"          "${PLUGIN_DIR}/"
-cp "${SCRIPT_DIR}/bfr_library_router.py"    "${PLUGIN_DIR}/"
-cp "${SCRIPT_DIR}/bfr_master_manager.py"    "${PLUGIN_DIR}/"
-cp "${SCRIPT_DIR}/bfr_logo_stamp.py"        "${PLUGIN_DIR}/"
-cp "${SCRIPT_DIR}/zip_extractor.py"         "${PLUGIN_DIR}/"
-cp "${SCRIPT_DIR}/jlc_store.py"             "${PLUGIN_DIR}/"
-cp "${SCRIPT_DIR}/jlc_fabrication.py"       "${PLUGIN_DIR}/"
-cp "${SCRIPT_DIR}/jlc_schematic_export.py"  "${PLUGIN_DIR}/"
-cp "${SCRIPT_DIR}/icon.png"                 "${PLUGIN_DIR}/"
+cp "${SCRIPT_DIR}/plugins/__init__.py"              "${PLUGIN_DIR}/"
+cp "${SCRIPT_DIR}/plugins/__main__.py"              "${PLUGIN_DIR}/"
+cp "${SCRIPT_DIR}/plugins/bfr_gui.py"               "${PLUGIN_DIR}/"
+cp "${SCRIPT_DIR}/plugins/bfr_backend.py"           "${PLUGIN_DIR}/"
+cp "${SCRIPT_DIR}/plugins/bfr_classifier.py"        "${PLUGIN_DIR}/"
+cp "${SCRIPT_DIR}/plugins/bfr_metadata.py"          "${PLUGIN_DIR}/"
+cp "${SCRIPT_DIR}/plugins/bfr_library_router.py"    "${PLUGIN_DIR}/"
+cp "${SCRIPT_DIR}/plugins/bfr_master_manager.py"    "${PLUGIN_DIR}/"
+cp "${SCRIPT_DIR}/plugins/bfr_logo_stamp.py"        "${PLUGIN_DIR}/"
+cp "${SCRIPT_DIR}/plugins/zip_extractor.py"         "${PLUGIN_DIR}/"
+cp "${SCRIPT_DIR}/plugins/jlc_store.py"             "${PLUGIN_DIR}/"
+cp "${SCRIPT_DIR}/plugins/jlc_fabrication.py"       "${PLUGIN_DIR}/"
+cp "${SCRIPT_DIR}/plugins/jlc_schematic_export.py"  "${PLUGIN_DIR}/"
+cp "${SCRIPT_DIR}/plugins/icon.png"                 "${PLUGIN_DIR}/"
 
 # Copy metadata.json into the root of the ZIP (PCM requires this)
-cp "${SCRIPT_DIR}/metadata.json"            "${TEMP_DIR}/"
+cp "${SCRIPT_DIR}/plugins/metadata.json"            "${TEMP_DIR}/"
 
 # Create the ZIP
 cd "${TEMP_DIR}"
@@ -79,7 +79,7 @@ echo "   Install size: ~${INSTALL_SIZE}"
 # ── 3. Build resources.zip (icon) ────────────────────────────
 RESOURCES_DIR="${TEMP_DIR}/resources"
 mkdir -p "${RESOURCES_DIR}/com.github.bfracing.bfr-kicad-library-manager"
-cp "${SCRIPT_DIR}/icon.png" "${RESOURCES_DIR}/com.github.bfracing.bfr-kicad-library-manager/icon.png"
+cp "${SCRIPT_DIR}/plugins/icon.png" "${RESOURCES_DIR}/com.github.bfracing.bfr-kicad-library-manager/icon.png"
 
 RESOURCES_ZIP="${OUTPUT_DIR}/resources.zip"
 cd "${RESOURCES_DIR}"
@@ -89,8 +89,8 @@ echo "✓ Resources ZIP: ${RESOURCES_ZIP}"
 
 # ── 4. Generate packages.json ────────────────────────────────
 # IMPORTANT: Replace GITHUB_USER and REPO_NAME with your actual GitHub info!
-GITHUB_USER="bfracing"
-REPO_NAME="bfr-kicad-library-manager"
+GITHUB_USER="bruinformula"
+REPO_NAME="bfr_library_manager_plugin"
 DOWNLOAD_URL="https://github.com/${GITHUB_USER}/${REPO_NAME}/releases/download/v${VERSION}/${PKG_NAME}-${VERSION}.zip"
 TIMESTAMP=$(date -u +"%Y-%m-%d %H:%M:%S")
 EPOCH=$(date +%s)
