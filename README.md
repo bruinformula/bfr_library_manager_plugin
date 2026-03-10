@@ -11,7 +11,7 @@ All-in-one KiCad plugin for library management and JLCPCB manufacturing integrat
 - **External library** bulk importer
 - **Auto-Init** project library tables with one click
 
-### ⚡ JLCPCB Production Bridge
+### JLCPCB Production Bridge
 
 - Live JLCPCB part search with detailed specs (voltage, power, tolerance, package)
 - One-click LCSC assignment with automatic metadata autopopulation
@@ -21,10 +21,6 @@ All-in-one KiCad plugin for library management and JLCPCB manufacturing integrat
 - **Interactive HTML BOM** integration (uses your installed InteractiveHtmlBom plugin)
 - Schematic LCSC sync — writes LCSC numbers back to `.kicad_sch`
 
-### 🏁 BFR Logo Stamp
-
-Place the BFR logo on your board's silkscreen layer.
-
 ---
 
 ## Installation via KiCad Plugin Manager
@@ -33,7 +29,7 @@ Place the BFR logo on your board's silkscreen layer.
 2. Click **Manage Repositories** (bottom-left)
 3. Click **+** to add a new repository:
    - **Name**: `BFR KiCad Repository`
-   - **URL**: `https://raw.githubusercontent.com/bfracing/bfr-kicad-library-manager/main/repository/repository.json`
+   - **URL**: `https://github.com/bruinformula/bfr_library_manager_plugin.git`
 4. Click **Save**
 5. Find **"BFR KiCad Library Manager"** in the plugin list
 6. Click **Install** → **Apply Pending Changes**
@@ -44,8 +40,6 @@ Place the BFR logo on your board's silkscreen layer.
 ## Requirements
 
 - KiCad 8.0 or later
-- Python 3 (included with KiCad)
-- Optional: [InteractiveHtmlBom](https://github.com/openscopeproject/InteractiveHtmlBom) plugin for iBOM generation
 
 ## License
 
