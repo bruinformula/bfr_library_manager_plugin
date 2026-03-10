@@ -11,7 +11,7 @@ All-in-one KiCad plugin for library management and JLCPCB manufacturing integrat
 - **External library** bulk importer
 - **Auto-Init** project library tables with one click
 
-### ⚡ JLCPCB Production Bridge
+### JLCPCB Production Bridge
 
 - Live JLCPCB part search with detailed specs (voltage, power, tolerance, package)
 - One-click LCSC assignment with automatic metadata autopopulation
@@ -20,10 +20,6 @@ All-in-one KiCad plugin for library management and JLCPCB manufacturing integrat
 - Gerber, Drill, BOM, CPL generation
 - **Interactive HTML BOM** integration (uses your installed InteractiveHtmlBom plugin)
 - Schematic LCSC sync — writes LCSC numbers back to `.kicad_sch`
-
-### 🏁 BFR Logo Stamp
-
-Place the BFR logo on your board's silkscreen layer.
 
 ---
 
@@ -44,8 +40,6 @@ Place the BFR logo on your board's silkscreen layer.
 ## Requirements
 
 - KiCad 8.0 or later
-- Python 3 (included with KiCad)
-- Optional: [InteractiveHtmlBom](https://github.com/openscopeproject/InteractiveHtmlBom) plugin for iBOM generation
 
 ## License
 
