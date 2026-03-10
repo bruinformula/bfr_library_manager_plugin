@@ -1,0 +1,31 @@
+{
+    "$schema": "https://go.kicad.org/pcm/schemas/v1",
+    "name": "BFR KiCad Library Manager",
+    "description": "All-in-one library manager, JLCPCB manufacturing suite, and LCSC part assigner for KiCad",
+    "description_full": "BFR KiCad Library Manager is a comprehensive KiCad plugin that combines library management with JLCPCB manufacturing integration.\n\nFeatures:\n- Import component ZIPs from Samacsys, Snapeda, UltraLibrarian, Octopart, EasyEDA/LCSC\n- Auto-classify components into organized bfr_* libraries\n- LCSC/JLCPCB metadata enrichment (no API key needed)\n- Sort Later tab for organizing bfr_master\n- External library bulk importer\n- Auto-Init project library tables\n- JLCPCB Production Bridge:\n  - Live JLCPCB part search with detailed specs (voltage, power, tolerance)\n  - One-click LCSC assignment with metadata autopopulation\n  - Auto-Assign LCSC by MPN cross-reference\n  - Select Alike for bulk passive assignment\n  - Gerber, Drill, BOM, CPL generation\n  - Interactive HTML BOM integration\n  - Schematic LCSC sync\n- BFR logo silkscreen stamp",
+    "identifier": "com.github.bfracing.bfr-kicad-library-manager",
+    "type": "plugin",
+    "author": {
+        "name": "BF Racing",
+        "contact": {
+            "web": "https://github.com/bfracing"
+        }
+    },
+    "maintainer": {
+        "name": "BF Racing",
+        "contact": {
+            "web": "https://github.com/bfracing"
+        }
+    },
+    "license": "MIT",
+    "resources": {
+        "homepage": "https://github.com/bfracing/bfr-kicad-library-manager"
+    },
+    "versions": [
+        {
+            "version": "1.1.0",
+            "status": "stable",
+            "kicad_version": "8.0"
+        }
+    ]
+}

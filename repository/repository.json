@@ -1,0 +1,22 @@
+{
+    "$schema": "https://gitlab.com/kicad/code/kicad/-/raw/master/kicad/pcm/schemas/pcm.v1.schema.json#/definitions/Repository",
+    "maintainer": {
+        "contact": {
+            "web": "https://github.com/bfracing"
+        },
+        "name": "BF Racing"
+    },
+    "name": "BFR KiCad Repository",
+    "packages": {
+        "sha256": "92c331aa3df710d5f3c26a9aed5b4e367d9a407c10f60b2c3e8bdb661eeb5d9a",
+        "update_time_utc": "2026-03-10 00:31:39",
+        "update_timestamp": 1773102699,
+        "url": "https://raw.githubusercontent.com/bfracing/bfr-kicad-library-manager/main/repository/packages.json"
+    },
+    "resources": {
+        "sha256": "a84e16b310c8245037c6ac1fa25786b55894ac51ac9ae5b6bb0896021955175f",
+        "update_time_utc": "2026-03-10 00:31:39",
+        "update_timestamp": 1773102699,
+        "url": "https://github.com/bfracing/bfr-kicad-library-manager/raw/main/repository/resources.zip"
+    }
+}
