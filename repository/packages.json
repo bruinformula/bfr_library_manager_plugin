@@ -5,23 +5,23 @@
             "name": "BFR KiCad Library Manager",
             "description": "All-in-one library manager, JLCPCB manufacturing suite, and LCSC part assigner",
             "description_full": "BFR KiCad Library Manager is a comprehensive KiCad plugin that combines library management with JLCPCB manufacturing integration. Features include ZIP import, auto-classification, LCSC metadata enrichment, JLCPCB production file generation, Interactive HTML BOM, and more.",
-            "identifier": "com.github.bfracing.bfr-kicad-library-manager",
+            "identifier": "com.github.bruinformula.bfr-library-manager-plugin",
             "type": "plugin",
             "author": {
                 "name": "BF Racing",
                 "contact": {
-                    "web": "https://github.com/bfracing"
+                    "web": "https://github.com/bruinformula"
                 }
             },
             "maintainer": {
                 "name": "BF Racing",
                 "contact": {
-                    "web": "https://github.com/bfracing"
+                    "web": "https://github.com/bruinformula"
                 }
             },
             "license": "MIT",
             "resources": {
-                "homepage": "https://github.com/bfracing/bfr-kicad-library-manager"
+                "homepage": "https://github.com/bruinformula/bfr_library_manager_plugin"
             },
             "versions": [
                 {
@@ -30,7 +30,7 @@
                     "kicad_version": "8.0",
                     "download_sha256": "89be89f5d8e59cab352169ca140eefffffc505cd65f8513c44a265bf0f6e1927",
                     "download_size": 45597,
-                    "download_url": "https://github.com/bfracing/bfr-kicad-library-manager/releases/download/v1.1.0/BFR-KiCad-Library-Manager-1.1.0.zip",
+                    "download_url": "https://github.com/bruinformula/bfr_library_manager_plugin/releases/download/v1.1.0/BFR-KiCad-Library-Manager-1.1.0.zip",
                     "install_size": 150432
                 }
             ]
